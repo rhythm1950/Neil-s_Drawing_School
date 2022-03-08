@@ -878,7 +878,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 /* Statistics */
 .fun-facts {
   margin-top: 140px;
-  background-image: url(../images/fun-facts-bg.jpg);
+  background-image: url(../images/service_01.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -913,7 +913,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .count-area-content {
   text-align: center;
-  background-color: rgba(250, 250, 250, 0.1);
+  background-color: rgba(0, 0, 0, 0.637);
   padding: 25px 30px 35px 30px;
   margin: 15px 0px;
 }
@@ -1407,4 +1407,49 @@ Due to the split circle of progress-left and progress right, we must use the ani
 /* Testimonial */
 .testimonial {
   margin-top: 140px;
+}
+
+.testimonial .filled-button {
+  color: white !important;
+  background: #ff6004 !important;
+  border: 1px solid #ff6004 !important;
+}
+
+.testimonial .filled-button:hover {
+  background: white !important;
+  color: #ff6004 !important;
+  border: 1px solid #ff6004 !important;
+}
+
+.testimonial .testimonial-box {
+  border-bottom: 3px solid #ff6004;
+}
+
+.testimonial .testimonial-box:hover {
+  border-bottom: 5px solid #ff6004;
+  box-shadow: 10px 10px 40px rgb(167, 167, 167);
+  transition: all 0.7s;
+}
+
+/* Footer */
+.footer {
+  background: #ff6004;
+  color:white !important;
+}
+
+.footer {
+  background: #ff6004;
+  color:white !important;
+}
+
+.footer p {
+  color: white !important;
+}
+
+.footer nav li {
+  text-align: left;
+}
+
+.sub-footer {
+  background: #ff7728;
 }
