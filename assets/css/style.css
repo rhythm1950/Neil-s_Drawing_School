@@ -435,7 +435,7 @@ ul.slick-dots {
 }
 
 .Modern-Slider .text-content {
-  text-align: left;
+  text-align: center;
   width: 75%;
   position: absolute;
   top: 50%;
@@ -443,18 +443,8 @@ ul.slick-dots {
   transform: translate(-50%, -50%);
 }
 
-.Modern-Slider .item h6 {
-  margin-bottom: 15px;
-  font-size: 22px;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #ff6004;
-  animation: fadeOutRight 1s both;
-}
-
 .Modern-Slider .item h4 {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-transform: uppercase;
   font-size: 44px;
   font-weight: 700;
@@ -465,12 +455,13 @@ ul.slick-dots {
 }
 
 .Modern-Slider .item p {
-  max-width: 570px;
   color: #fff;
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .Modern-Slider .item a {
@@ -878,7 +869,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 /* Statistics */
 .fun-facts {
   margin-top: 140px;
-  background-image: url(../images/service_01.jpg);
+  background: rgb(0, 0, 0);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -913,7 +904,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .count-area-content {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.637);
+  background-color: rgba(46, 46, 46, 0.925);
   padding: 25px 30px 35px 30px;
   margin: 15px 0px;
 }
