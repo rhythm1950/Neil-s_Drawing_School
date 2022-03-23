@@ -515,8 +515,8 @@ ul.slick-dots {
   margin-bottom: 25px;
 }
 
-/* Statistics section */
-.statistics {
+/* Growth section */
+.growth {
   margin-top: 140px;
   background: url(../images/bg.jpg);
   background-position: center center;
@@ -527,7 +527,7 @@ ul.slick-dots {
   color: #fff;
 }
 
-.statistics span {
+.growth span {
   text-transform: uppercase;
   font-size: 15px;
   color: #fff;
@@ -536,18 +536,18 @@ ul.slick-dots {
   display: block;
 }
 
-.statistics h2 {
+.growth h2 {
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 35px;
 }
 
-.statistics p {
+.growth p {
   color: #fff;
   margin-bottom: 40px;
 }
 
-.statistics .left-content {
+.growth .left-content {
   margin-right: 45px;
 }
 
@@ -571,8 +571,8 @@ ul.slick-dots {
   letter-spacing: 0.5px;
 }
 
-/* Services section */
-.services {
+/* Why Us section */
+.why-us {
   margin-top: 140px;
 }
 
@@ -807,10 +807,10 @@ ul.slick-dots {
     float: none;
     margin-top: 30px;
   }
-  .services .service-item {
+  .why-us .service-item {
     margin-bottom: 30px;
   }
-  .statistics .left-content {
+  .growth .left-content {
     margin-right: 0px;
     margin-bottom: 30px;
   }
