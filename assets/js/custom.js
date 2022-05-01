@@ -28,8 +28,8 @@ jQuery(document).ready(function ($) {
 
     $(".Modern-Slider").slick({
         autoplay: true,
-        autoplaySpeed: 10000,
-        speed: 600,
+        autoplaySpeed: 1400,
+        speed: 900,
         slidesToShow: 1,
         slidesToScroll: 1,
         pauseOnHover: false,
