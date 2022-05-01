@@ -1,4 +1,6 @@
 /* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
@@ -200,11 +202,7 @@ header .navbar {
   margin-top: 5px;
 }
 
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .active > .nav-link,
-.navbar .navbar-nav .nav-link.current,
-.navbar .navbar-nav .nav-link.show,
-.navbar .navbar-nav .show > .nav-link {
+.navbar .navbar-nav .nav-link:hover {
   color: white;
   border-bottom: 3px solid #ff6004;
 }
@@ -399,6 +397,7 @@ ul.slick-dots {
 .slick-list:focus {
   outline: none;
 }
+
 .slick-list.dragging {
   cursor: hand;
 }
@@ -564,6 +563,7 @@ ul.slick-dots {
   font-weight: 700;
   font-size: 36px;
 }
+
 .count-title {
   font-size: 20px;
   font-weight: 600;
@@ -755,7 +755,7 @@ ul.slick-dots {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  color:white !important;
+  color: white !important;
 }
 
 .footer p {
@@ -779,44 +779,55 @@ ul.slick-dots {
   .top-header {
     display: none;
   }
+
   .Modern-Slider .item h6 {
     margin-bottom: 15px;
     font-size: 18px;
   }
+
   .Modern-Slider .item h4 {
     margin-bottom: 25px;
     font-size: 28px;
     line-height: 36px;
     letter-spacing: 1px;
   }
+
   .Modern-Slider .item p {
     max-width: 570px;
     line-height: 25px;
     margin-bottom: 30px;
   }
+
   .Modern-Slider .NextArrow {
     right: 5px;
   }
+
   .Modern-Slider .PrevArrow {
     left: 5px;
   }
+
   .request-form {
     text-align: center;
   }
+
   .request-form a.border-button {
     float: none;
     margin-top: 30px;
   }
+
   .why-us .card-item {
     margin-bottom: 30px;
   }
+
   .growth .left-content {
     margin-right: 0px;
     margin-bottom: 30px;
   }
+
   footer {
     padding: 80px 0px 20px 0px;
   }
+
   .about-info .right-content {
     margin-right: 0px;
     margin-bottom: 30px;
@@ -829,12 +840,15 @@ ul.slick-dots {
     left: 30px;
     top: 10px;
   }
+
   .navbar .navbar-brand {
     width: auto;
   }
+
   .navbar:after {
     display: none;
   }
+
   #navbarResponsive {
     z-index: 99999;
     position: absolute;
@@ -845,21 +859,25 @@ ul.slick-dots {
     background-color: #fff;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   }
+
   .navbar .navbar-nav .nav-item {
     border-bottom: 1px solid #eee;
   }
+
   .navbar .navbar-nav .nav-item:last-child {
     border-bottom: none;
   }
+
   .navbar .navbar-nav a.nav-link {
     padding: 15px 0px;
     color: #1e1e1e !important;
   }
+
   .navbar .navbar-nav .nav-link:hover,
-  .navbar .navbar-nav .active > .nav-link,
+  .navbar .navbar-nav .active>.nav-link,
   .navbar .navbar-nav .nav-link.current,
   .navbar .navbar-nav .nav-link.show,
-  .navbar .navbar-nav .show > .nav-link {
+  .navbar .navbar-nav .show>.nav-link {
     color: #ff6004 !important;
     border-bottom: none !important;
   }
