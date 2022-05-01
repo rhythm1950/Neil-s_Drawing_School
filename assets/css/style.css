@@ -557,7 +557,7 @@ ul.slick-dots {
   margin: 15px 0px;
 }
 
-.count-digit {
+.digit {
   margin: 5px 0px;
   color: #ff6004;
   font-weight: 700;
@@ -749,29 +749,51 @@ ul.slick-dots {
 }
 
 /* Footer */
-.footer {
+footer {
   background: url(../images/footer-bg.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  color: #fff;
+}
+
+footer h2 {
+  font-size: 24px;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer ul li a {
   color: white !important;
 }
 
-.footer p {
-  color: white !important;
+footer ul li a:hover {
+  color: #ff6004;
 }
 
-.footer nav li {
-  text-align: left;
-}
-
-.sub-footer {
-  background: #ff7728;
-}
-
-.sub-footer a {
+#button-addon1 {
   color: white;
+}
+
+i {
+  color: white;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+.copyright {
+  background-color: #ff6004;
 }
 
 /* Responsive Style */
@@ -822,10 +844,6 @@ ul.slick-dots {
   .growth .left-content {
     margin-right: 0px;
     margin-bottom: 30px;
-  }
-
-  footer {
-    padding: 80px 0px 20px 0px;
   }
 
   .about-info .right-content {
