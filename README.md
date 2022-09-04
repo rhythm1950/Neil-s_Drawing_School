@@ -25,5 +25,5 @@ This is a website of a drwaing school. I have developed it using HTML, CSS, Boot
 
 
 ### Website Preview:
-<img src="./assets/img/Neil-s-Drawing-School.png" alt="Neil-s-Drawing-School">
+<img src="./assets/images/Neil-s-Drawing-School.png" alt="Neil-s-Drawing-School">
 
